@@ -1,4 +1,4 @@
-window.onload = detectDevice;
+
 
 function detectDevice() {
     const userAgent = navigator.userAgent;
@@ -16,3 +16,4 @@ function detectDevice() {
         document.getElementById('androidBtn').classList.remove('hide');
     }
 }
+window.onload = detectDevice;
