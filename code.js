@@ -1,5 +1,5 @@
 
-window.onload = detectDevice;
+
 function detectDevice() {
     const userAgent = navigator.userAgent;
     const iOS = /iPad|iPhone|iPod/.test(userAgent);
@@ -16,3 +16,4 @@ function detectDevice() {
         document.getElementById('androidBtn').classList.remove('hide');
     }
 }
+window.onload = detectDevice;
