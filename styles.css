@@ -20,6 +20,10 @@ body {
     color: white;
     border-radius: 5px;
   }
+  .hide {
+    display: none;
+}
+
   .apple {
     background-color: #1051c9;
     
@@ -28,6 +32,7 @@ body {
     background-color: #af2010;
   }
   .background-image {
+    
     position:absolute;
     top: 0;
     left: 0;
@@ -35,8 +40,8 @@ body {
     height: 100%;
     z-index: -1;
     background: url('/img/GKBackground.jpg') no-repeat center center ;
-    background-size:cover ;
-    transform: ;
+    background-size: cover ;
+
     
 }
 
